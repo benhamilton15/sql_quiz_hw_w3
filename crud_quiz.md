@@ -53,7 +53,11 @@ Q8. What type of data structure is returned by calls to `db.exec_prepared()`? In
 
 Q9. Why do we use prepared statements when performing database operations?
 
-#prepared statements clean our code to avoid someone entering sql commands in their entries and it also makes the code more readable.
+#prepared statements clean our code to avoid someone entering sql commands (sql injection) in their entries and it also makes the code more readable.
+
+
+
+
 
 ## Extension Questions
 
